@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}"/>
+</head>
+<body>
+<form action = "#" method = 'POST'>
+    <div class="box-zero">
+        <div class="box-one">
+            <h1>Ocena konsekwencji pandemii Covid-19</h1>
+            <p2>. . . . . </p2> 
+            <p1>. </p1> 
+
+        </div>
+        <div class="box-two">
+            <p4>PYTANIA OKREŚLAJĄCE ODBIÓR FORMY ZDALNEGO NAUCZANIA PRZEZ STUDENTÓW/ WPŁYW E-LEARNINGU NA EFEKTYWNOŚĆ NAUKI:</p4> 
+            <br></br>
+            <div class="question-box">
+                <p3>23. Oceń wpływ e-learningu na koncentrację:</p3>
+                <br><br>
+                <input type="radio" id="q11" name="pytanie23" value="1">
+                <label for="q11">bardzo negatywny</label><p5></p5><br>
+                <input type="radio" id="q12" name="pytanie23" value="2">
+                <label for="q12">negatywny</label><p5></p5><br>
+                <input type="radio" id="q13" name="pytanie23" value="3">
+                <label for="q13">bez zmian</label><p5></p5><br>
+                <input type="radio" id="q14" name="pytanie23" value="4">
+                <label for="q14">pozytywny</label><p5></p5><br>
+                <input type="radio" id="q15" name="pytanie23" value="5">
+                <label for="q15">bardzo pozytywny</label>
+            </div>
+            <div class="question-box">
+                <p3>24. Oceń wpływ e-learningu na sumienność i organizację  w wykonywaniu zadań:</p3>
+                <br><br>
+                <input type="radio" id="q21" name="pytanie24" value="1">
+                <label for="q21">bardzo negatywny</label><p5></p5><br>
+                <input type="radio" id="q22" name="pytanie24" value="2">
+                <label for="q22">negatywny</label><p5></p5><br>
+                <input type="radio" id="q23" name="pytanie24" value="3">
+                <label for="q23">bez zmian</label><p5></p5><br>
+                <input type="radio" id="q24" name="pytanie24" value="4">
+                <label for="q24">pozytywny</label><p5></p5><br>
+                <input type="radio" id="q25" name="pytanie24" value="5">
+                <label for="q25">bardzo pozytywny</label>
+            </div>
+            <div class="question-box">
+                <p3>25. Oceń zmiany w zdolnościach do przyswajania wiedzy:</p3>
+                <br><br>
+                <input type="radio" id="q31" name="pytanie25" value="1">
+                <label for="q31">bardzo utrudnione</label><p5></p5><br>
+                <input type="radio" id="q32" name="pytanie25" value="2">
+                <label for="q32">utrudnione</label><p5></p5><br>
+                <input type="radio" id="q33" name="pytanie25" value="3">
+                <label for="q33">bez zmian</label><p5></p5><br>
+                <input type="radio" id="q34" name="pytanie25" value="4">
+                <label for="q34">ułatwione</label><p5></p5><br>
+                <input type="radio" id="q35" name="pytanie25" value="5">
+                <label for="q35">bardzo ułatwione</label>
+            </div>
+            <div class="question-box">
+                <p3>26. Oceń zmiany w zdolnościach do współpracy z innymi ludźmi:</p3>  
+                <br><br>
+                <input type="radio" id="q41" name="pytanie26" value="1">
+                <label for="q41">duże trudności</label><p5></p5><br>
+                <input type="radio" id="q42" name="pytanie26" value="2">
+                <label for="q42">trudności</label><p5></p5><br>
+                <input type="radio" id="q43" name="pytanie26" value="3">
+                <label for="q43">bez zmian</label><p5></p5><br>
+                <input type="radio" id="q44" name="pytanie26" value="4">
+                <label for="q44">ułatwione</label><p5></p5><br>
+                <input type="radio" id="q45" name="pytanie26" value="5">
+                <label for="q45">bardzo ułatwione</label>
+            </div>
+            <div class="question-box">
+                <p3>27. Czy chciałabyś, aby zajęcia były prowadzone w tej formie po zakończeniu pandemii?</p3> 
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q51" name="pytanie27" value="nie">
+                    <label for="q51">Nie</label><p5></p5>
+                    <input type="radio" id="q52" name="pytanie27" value="niewiem">
+                    <label for="q52">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q53" name="pytanie27" value="tak">
+                    <label for="q53">Tak</label><p5></p5>
+                </div>  
+            </div>
+            <br>
+            <input type = 'submit' value = 'Zakończ quiz'/>
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}"/>
+</head>
+<body>
+<form action = "#" method = 'POST'>
+    <div class="box-zero">
+        <div class="box-one">
+            <h1>Ocena konsekwencji pandemii Covid-19</h1>
+            <p2>. . . . </p2> 
+            <p1>. </p1> 
+            <p2>.</p2>
+        </div>
+        <div class="box-two">
+            <p4>PYTANIA OCENIAJĄCE ZACHOWANIE PODCZAS IZOLACJI, WPŁYW PANDEMII NA KONTAKTY SPOŁECZNE:</p4> 
+            <br></br>
+            <div class="question-box">
+                <p3>18. Czy czujesz się samotny/odizolowany od społeczeństwa?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q11" name="pytanie18" value="nie">
+                    <label for="q11">Nie</label><p5></p5>
+                    <input type="radio" id="q12" name="pytanie18" value="niewiem">
+                    <label for="q12">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q13" name="pytanie18" value="tak">
+                    <label for="q13">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>19. Oceń zmiany w relacjach ze znajomymi/kolegami podczas trwania pandemii ?</p3>
+                <br><br>
+                <input type="radio" id="q21" name="pytanie19" value="1">
+                <label for="q21">bardzo się pogorszyły</label>
+                <br>
+                <input type="radio" id="q22" name="pytanie19" value="2">
+                <label for="q22">pogorszyły się</label>
+                <br>
+                <input type="radio" id="q23" name="pytanie19" value="3">
+                <label for="q23">bez zmian</label>
+                <br>
+                <input type="radio" id="q24" name="pytanie19" value="4">
+                <label for="q24">poprawiły się</label>
+                <br>
+                <input type="radio" id="q25" name="pytanie19" value="5">
+                <label for="q25">bardzo się poprawiły</label>
+            </div>
+            <br>
+            <p4>PYTANIA DOTYCZĄCE STOSUNKU WZGLĘDEM NAŁOŻONYCH OBOSTRZEŃ:</p4> 
+            <br>
+            <div class="question-box">
+                <p3>20. Oceń swój stosunek do nałożonych restrykcji:</p3>
+                <br><br>
+                <input type="radio" id="q31" name="pytanie20" value="1">
+                <label for="q31">bardzo negatywnie</label><p5></p5><br>
+                <input type="radio" id="q32" name="pytanie20" value="2">
+                <label for="q32">negatywnie</label><p5></p5><br>
+                <input type="radio" id="q33" name="pytanie20" value="3">
+                <label for="q33">przeciętne</label><p5></p5><br>
+                <input type="radio" id="q34" name="pytanie20" value="4">
+                <label for="q34">pozytywnie</label><p5></p5><br>
+                <input type="radio" id="q35" name="pytanie20" value="5">
+                <label for="q35">bardzo pozytywnie</label>
+            </div>
+            <div class="question-box">
+                <p3>21. Czy przestrzegałeś nałożonych restrykcji?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q41" name="pytanie21" value="nie">
+                    <label for="q41">Nie</label><p5></p5>
+                    <input type="radio" id="q42" name="pytanie21" value="niewiem">
+                    <label for="q42">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q43" name="pytanie21" value="tak">
+                    <label for="q43">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>22. Zaznacz niżej wymienioną restrykcję, którą uważasz za najbardziej zbędną:</p3>
+                <br></br>
+                <label>                    
+                    <input type="radio" name="pytanie22" value="0">
+                    Żadne z wymienionych 
+                    <p11></p11>
+                    <input type="radio" name="pytanie22" value="1">
+                    Godziny dla seniorów                 
+                    <p>
+                    <input type="radio" name="pytanie22" value="2">
+                    Zasłanianie ust i nosa 
+                    <p6></p6>
+                    <input type="radio" name="pytanie22" value="3">
+                    Zamknięcie obiektów sportowych/kulturowych
+                    <p>
+                    <input type="radio" name="pytanie22" value="4">
+                    Kwarantanna
+                    <p12></p12>
+                    <input type="radio" name="pytanie22" value="5">
+                    Zamknięcie restauracji/hoteli
+                    <p>
+                    <input type="radio" name="pytanie22" value="6">
+                    Przymus nauki zdalnej
+                    <p13></p13>
+                    <input type="radio" name="pytanie22" value="7">
+                    Zamknięcie granic państwa
+                    <p>                     
+                </label>
+            </div>
+            <br>
+            <input type = 'submit' value = 'Potwierdź'/>
+        </div>
+    </div>
+</form>
+</body>
+</html>

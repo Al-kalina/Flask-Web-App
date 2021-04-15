@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}"/>
+</head>
+<body>
+<form action = "#" method = 'POST'>
+    <div class="box-zero">
+        <div class="box-one">
+            <h1>Ocena konsekwencji pandemii Covid-19</h1>
+            <p2>. . </p2> 
+            <p1>. </p1> 
+            <p2>. . .</p2>
+        </div>
+        <div class="box-two">
+            <p4>PYTANIA DOTYCZĄCE ZMIAN W STANIE ZDROWIA RESPONDENTA/ PRZEBYCIE CHOROBY COVID-19:</p4> 
+            <br></br>
+            <div class="question-box">
+                <p3>9. Sen, zdrowie, odżywianie - czy masz problemy przynajmniej z jednym z wymienionych obszarów?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q11" name="pytanie9" value="nie">
+                    <label for="q11">Nie</label><p5></p5>
+                    <input type="radio" id="q12" name="pytanie9" value="niewiem">
+                    <label for="q12">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q13" name="pytanie9" value="tak">
+                    <label for="q13">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>10. Czy podejrzewałeś u siebie chorobę COVID-19?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q21" name="pytanie10" value="nie">
+                    <label for="q21">Nie</label><p5></p5>
+                    <input type="radio" id="q22" name="pytanie10" value="niewiem">
+                    <label for="q22">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q23" name="pytanie10" value="tak">
+                    <label for="q23">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>11. Czy wystąpiły u Ciebie objawy choroby COVID-19?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q31" name="pytanie11" value="nie">
+                    <label for="q31">Nie</label><p5></p5>
+                    <input type="radio" id="q32" name="pytanie11" value="niewiem">
+                    <label for="q32">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q33" name="pytanie11" value="tak">
+                    <label for="q33">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>12. Czy stwierdzono u Ciebie chorobę COVID-19?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q41" name="pytanie12" value="nie">
+                    <label for="q41">Nie</label><p5></p5>
+                    <input type="radio" id="q42" name="pytanie12" value="niewiem">
+                    <label for="q42">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q43" name="pytanie12" value="tak">
+                    <label for="q43">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p14>13.* Jeśli tak, to w jakim stopniu oceniasz przebieg?
+                <br><br><br>
+                <input type="radio" id="q51" name="pytanie13" value="1">
+                <label for="q51">bardzo słabo</label><p5></p5>
+                <input type="radio" id="q52" name="pytanie13" value="2">
+                <label for="q52">raczej słabo</label><p5></p5>
+                <input type="radio" id="q53" name="pytanie13" value="3">
+                <label for="q53">przeciętne</label><p5></p5>
+                <input type="radio" id="q54" name="pytanie13" value="4">
+                <label for="q54">całkiem dobrze</label><p5></p5>
+                <input type="radio" id="q55" name="pytanie13" value="5">
+                <label for="q55">bardzo dobrze</label>
+                </p14>
+            </div>
+            <br>
+            <input type = 'submit' value = 'Potwierdź'/>
+        </div>
+    </div>
+</form>
+</body>
+</html>

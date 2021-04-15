@@ -1,0 +1,32 @@
+<html>
+<head>
+{% block title%}Moja stroneczka kolejna śliczna{% endblock %}
+</head>
+<body>
+{% block form %}
+Hi, nice to meet you
+dopiszę coś
+<form action = "#" method = 'POST'>
+
+<input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="male">FEMale</label><br><br>
+  
+<label>
+  <input type="radio" name="food" value="Frytki"> Frytki
+</label>
+<label>
+  <input type="radio" name="food" value="Ziemniaki"> Ziemniaki
+</label>
+<label>
+  <input type="radio" name="food" value="Ryż"> Ryż
+</label>
+  
+  
+  <input type = 'submit' value = 'Prześlij'/><br>
+  
+</form>
+{% endblock %}
+</body>
+</html>

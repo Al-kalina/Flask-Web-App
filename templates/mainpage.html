@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}"/>
+</head>
+<body>
+<form action = "#" method = 'POST'>
+    <div class="box-zero">
+        <div class="box-one">
+            <h1>Ocena konsekwencji pandemii Covid-19</h1>
+            <p1>. </p1> 
+            <p2>  . . . . .</p2>
+        </div>
+        <div class="box-two">
+            <br>
+            <p4>PYTANIA IDENTYFIKUJĄCE RESPONEDNTA:</p4>
+            <br></br>
+            <div class="question-box">
+                <p3>1. Zaznacz swój przedział wiekowy:</p3>
+                <br></br>
+                
+                <input type="radio" id="_20lat" name="pytanie1" value="20lat">
+                <label for="_20lat">do 20 lat</label><br>
+
+                <input type="radio" id="20_25lat" name="pytanie1" value="20_25lat">
+                <label for="20_25lat">20-25 lat</label><br>            
+        
+                <input type="radio" id="25_30lat" name="pytanie1" value="25_30lat">
+                <label for="25_30lat">25-30 lat</label><br>
+        
+                <input type="radio" id="30lat_" name="pytanie1" value="30lat">
+                <label for="30lat_">od 30 lat</label><br>
+            </div>
+            <div class="question-box">
+                <p3>2. Określ swoją płeć:</p3>
+                <br></br>
+                            
+                <input type="radio" id="male" name="pytanie2" value="mezczyzna">
+                <label for="male">Mężczyzna</label><br>
+            
+                <input type="radio" id="female" name="pytanie2" value="kobieta">
+                <label for="female">Kobieta</label><br>
+            
+                <input type="radio" id="other" name="pytanie2" value="inne">
+                <label for="other">Inne</label>
+            </div>
+            <div class="question-box">
+                <p3>3. Wybierz swoją uczelnię:</p3>
+                <br></br>
+                            
+                <input type="radio" id="PG" name="pytanie3" value="PG">
+                <label for="PG">Politechnika Gdańska</label><br>
+            
+                <input type="radio" id="GUMED" name="pytanie3" value="GUMED">
+                <label for="GUMED">Gdański Uniwersytet Medyczny</label><br>
+            
+                <input type="radio" id="UG" name="pytanie3" value="UG">
+                <label for="UG">Uniwersytet Gdański</label>
+            </div>
+            <div class="question-box">
+                <p14>4.* Jeśli wybrałeś Politechnikę Gdańską, to wybierz swój wydział:
+                <br></br>
+
+                <label>                    
+                    <input type="radio" name="pytanie4" value="Arch">
+                    Wydział Architektury
+                    <p6></p6>
+                    <input type="radio" name="pytanie4" value="Chem">
+                     Wydział Chemiczny                   
+                    <p>
+                    <input type="radio" name="pytanie4" value="EIA">
+                    Wydział EIA
+                    <p7></p7>
+                    <input type="radio" name="pytanie4" value="ETI">
+                    Wydział ETI
+                    <p>
+                    <input type="radio" name="pytanie4" value="FTIMS">
+                    Wydział FTIMS
+                    <p8></p8>
+                    <input type="radio" name="pytanie4" value="WILIS">
+                    Wydział WILIŚ
+                    <p>
+                    <input type="radio" name="pytanie4" value="IMIO">
+                    Wydział IMIO
+                    <p9></p9>
+                    <input type="radio" name="pytanie4" value="ZIE">
+                    Wydział ZIE  
+                    <p>                     
+                </label>
+                </p14>
+            </div>
+            <br>
+            <input type = 'submit' value = 'Potwierdź'/>
+        </div>
+    </div>
+</form>
+</body>
+</html>

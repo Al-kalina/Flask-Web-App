@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}"/>
+</head>
+<body>
+<form action = "#" method = 'POST'>
+    <div class="box-zero">
+        <div class="box-one">
+            <h1>Ocena konsekwencji pandemii Covid-19</h1>
+            <p2>. . . </p2> 
+            <p1>. </p1> 
+            <p2>. .</p2>
+        </div>
+        <div class="box-two">
+            <p4>PYTANIA DOTYCZĄCE ZMIAN NAWYKÓW ŻYWIENIOWYCH, AKTYWNOŚCI FIZYCZNEJ ORAZ PRZYJMOWANIA DODATKOWYCH LEKÓW/ SUPLEMENTÓW DIETY:</p4> 
+            <br></br>
+            <div class="question-box">
+                <p3>14. Czy Twoja aktywność fizyczna uległa poprawie lub pogorszeniu?</p3>
+                <br><br>
+                <input type="radio" id="q11" name="pytanie14" value="1">
+                <label for="q11">bardzo się pogorszyła</label>
+                <br>
+                <input type="radio" id="q12" name="pytanie14" value="2">
+                <label for="q12">pogorszyła się</label>
+                <br>
+                <input type="radio" id="q13" name="pytanie14" value="3">
+                <label for="q13">bez zmian</label>
+                <br>
+                <input type="radio" id="q14" name="pytanie14" value="4">
+                <label for="q14">poprawiła się</label>
+                <br>
+                <input type="radio" id="q15" name="pytanie14" value="5">
+                <label for="q15">bardzo się poprawiła</label>
+            </div>
+            <div class="question-box">
+                <p3>15. Jak oceniasz zmiany w diecie/ jakości spożywanych produktów w trakcie pandemii?</p3>
+                <br></br><br>
+                <div>
+                <p6>                    
+                    <input type="radio" id="q21" name="pytanie15" value="nie">
+                    <label for="q21">Negatywna zmiana</label><p5></p5>
+                    <input type="radio" id="q22" name="pytanie15" value="bezzmian">
+                    <label for="q22">Bez zmian</label><p5></p5>
+                    <input type="radio" id="q23" name="pytanie15" value="tak">
+                    <label for="q23">Poztywna zmiana</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>16. Czy podczas trwania pandemii zacząłeś przyjmować dodatkowe suplementy diety/ witaminy?</p3>
+                <br></br><br>
+                <div>
+                    <p10></p10>
+                    <input type="radio" id="q31" name="pytanie16" value="nie">
+                    <label for="q31">Nie</label><p5></p5>
+                    <input type="radio" id="q32" name="pytanie16" value="niewiem">
+                    <label for="q32">Nie wiem</label><p5></p5>
+                    <input type="radio" id="q33" name="pytanie16" value="tak">
+                    <label for="q33">Tak</label><p5></p5>
+                </div>
+            </div>
+            <div class="question-box">
+                <p3>17. Czy w trakcie pandemii w Twojej diecie zwiększyła się ilość spożywanych produktów typu: kawa, napoje energetyczne?</p3>
+                <br><br>
+                <input type="radio" id="q41" name="pytanie17" value="1">
+                <label for="q41">znacznie się zmniejszyła</label>
+                <br>
+                <input type="radio" id="q42" name="pytanie17" value="2">
+                <label for="q42">zmniejszyła się</label>
+                <br>
+                <input type="radio" id="q43" name="pytanie17" value="3">
+                <label for="q43">bez zmian</label>
+                <br>
+                <input type="radio" id="q44" name="pytanie17" value="4">
+                <label for="q44">zwiększyła się</label>
+                <br>
+                <input type="radio" id="q45" name="pytanie17" value="5">
+                <label for="q45">znacznie zwiększyła się</label>
+            </div>
+            <br>
+            <input type = 'submit' value = 'Potwierdź'/>
+        </div>
+    </div>
+</form>
+</body>
+</html>
