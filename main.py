@@ -81,7 +81,6 @@ def page2():
 def page3():
     if request.method == 'POST':
         try:
-            #obiekt = Page3('jeb', 'czemu', 'to', 'działa', 'teraz?')
             questions3 = Page3(socket.gethostbyname(socket.gethostname()),request.form["pytanie14"],
                                request.form["pytanie15"], request.form["pytanie16"], request.form["pytanie17"])
             print(questions3.returnAnswers())
